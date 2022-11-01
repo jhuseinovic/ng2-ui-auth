@@ -1,9 +1,9 @@
 {
   "name": "ng2-ui-auth",
-  "version": "10.0.1",
+  "version": "10.0.2",
   "peerDependencies": {
-    "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0",
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
     "rxjs": "^6.0.0"
   },
   "main": "bundles/ng2-ui-auth.umd.js",
