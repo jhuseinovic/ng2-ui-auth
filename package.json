@@ -1,6 +1,10 @@
 {
   "name": "ng2-ui-auth",
-  "version": "10.0.2",
+  "version": "10.0.3",
+  "contributors": [{
+    "name": "John Huseinovic",
+    "email": "john@huseinovic.net"
+  }],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -59,7 +63,7 @@
     "rxjs": "^7.x",
     "ts-node": "^8.3.0",
     "tsickle": "^0.36.0",
-    "tslint": "~5.11.0",
+    "tslint": "^5.11.0",
     "typescript": "^3.4.5",
     "zone.js": "^0.9.1"
   }
