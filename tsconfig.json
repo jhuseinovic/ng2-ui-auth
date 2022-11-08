@@ -3,8 +3,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+      "noImplicitAny": false,
+      "module": "commonjs",
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -21,5 +23,6 @@
         "dist/Ng2UiAuth"
       ]
     }
-  }
+  },
+     "exclude": ["node_modules"]
 }
